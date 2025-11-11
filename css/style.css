@@ -1,0 +1,43 @@
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
+header h1 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+header nav a {
+  transition: color 0.3s ease;
+}
+
+header nav a:hover {                                              
+  color: #ffc107; /* Amarelo destaque */
+}
+
+header img {
+  background-color: ; /* azul padrão do Bootstrap */
+}                                    
+
+body {
+  background: linear-gradient(135deg, #d7d7d7, #a9a9a9, #f0f0f0);
+}                           
+                                                                                                                                                                                                                                                               
+.nav-link {
+  font-size: 1.3rem;                                                                                                                                                 
+  text-transform: uppercase; /* deixa em maiúsculas */
+  letter-spacing: 1px;       /* espaçamento entre letras */                       
+}
+
+@media (max-width: 768px) {
+  .nav-link {                                                                                                                                                     
+    font-size: 1rem; /* menor em telas pequenas */
+  }
+}
+                    
+@media (min-width: 769px) {                                                       
+  .nav-link {
+    font-size: 1.4rem; /* maior em telas grandes */
+  }                   
+}                                                                                  
